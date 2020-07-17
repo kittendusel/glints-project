@@ -24,6 +24,7 @@ li {
   width: 100%;
   height: 4rem; 
   position: fixed;
+  z-index: 10;
 }
 
 .header-container {
@@ -45,4 +46,155 @@ li {
 .link ul li a{
   color: #fff;
   text-decoration: none;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  border-top: 2px solid #dee7ec;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 60rem;
+}
+
+.flex-list li {
+  flex: auto;
+}
+
+.logo1 {
+  width: 6rem;
+}
+
+.footer-container1 p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.footer-list {
+  text-align: center;
+}
+
+.footer-list h3 {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.footer-list li {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.sosmed {
+  text-align:center;
+}
+.sosmed h3 {
+  font-size: 18px;
+}
+
+.sosmed img {
+  padding: 5px;
+}
+/* body */
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  width: 100%;
+  height: 79vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 65rem;
+}
+
+.root div article form div{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.container article h2 {
+  margin-bottom: 1rem;
+}
+
+.container article form div input {
+  width : 25rem;
+  margin-top : 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size : 18px;
+  border: 1px solid #dee7ec;
+}
+
+.container article form div textarea {
+  width : 25rem;
+  margin-top : 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size : 18px;
+  border: 1px solid #dee7ec;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color:#F9448A;
+  cursor: pointer;
+  box-shadow: 0 7px #B80056;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 1rem;
+  width: 12rem;
+}
+
+/* footeer */
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom img {
+  float: left;
+  size: 10px;
+  padding-right: 3px;
+}
+.footer-bottom h3{
+  float: right;
+  font-size: 10px;
+  padding-top: 3px;
 }
